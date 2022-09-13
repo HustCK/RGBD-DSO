@@ -47,3 +47,24 @@ Install with
 
 #### 3.1 Dataset Format
 Let's take TUM RGB-D as an example.
+
+		<sequence folder name>
+			|____________rgb
+			|____________depth
+			|____________associate.txt
+			
+If you are using other datasets, pleasr adjust the file directory and format as described above.
+
+#### 3.2 Run
+If you use the same datasets as in this article, run it directly with the following instructions:
+
+		bin/dso_dataset \
+			files=<sequence folder name> \
+			calib=<RGB-D DSO path>/calib/<dataset name>/calib.txt \
+			preset=0 \
+			mode=1
+			
+For more details on configuration parameters, see [Direct Sparse Odometry](https://github.com/JakobEngel/dso).
+
+### 4. Acknowledgement
+This work is implemented based on [Direct Sparse Odometry](https://github.com/JakobEngel/dso). Thanks to J. Engel et al., who open source such excellent code for community.
