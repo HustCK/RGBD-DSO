@@ -67,4 +67,4 @@ If you use the same datasets as in this article, run it directly with the follow
 For more details on configuration parameters, see [Direct Sparse Odometry](https://github.com/JakobEngel/dso).
 
 ### 4. Acknowledgement
-This work is implemented based on [Direct Sparse Odometry](https://github.com/JakobEngel/dso). Thanks to J. Engel et al., who open source such excellent code for community.
+This work is implemented based on [Direct Sparse Odometry](https://github.com/JakobEngel/dso). Thanks to [J. Engel](https://scholar.google.com/citations?user=ndOMZXMAAAAJ&hl=zh-CN) et al., who open source such excellent code for community.
