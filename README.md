@@ -5,7 +5,7 @@
 
 ### 2. Installation
 
-	git clone https://github.com/HustCK/RGBD-DSO.git
+		git clone https://github.com/HustCK/RGBD-DSO.git
 
 #### 2.1 Required Dependencies
 
